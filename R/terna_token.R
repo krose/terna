@@ -1,5 +1,12 @@
 
-
+#' Get a token to download data.
+#'
+#' @param client_id Client id. Defaults to NULL.
+#' @param client_secret Client secret. Defaults to NULL.
+#'
+#' @export
+#'
+#'
 terna_get_access_token <- function(client_id = NULL, client_secret = NULL) {
 
   if(is.null(client_id)) client_id = Sys.getenv("TERNA_CLIENT_ID")
