@@ -13,3 +13,5 @@ Imports:
     httr2,
     tibble
 RoxygenNote: 7.2.3
+URL: https://github.com/krose/terna
+BugReports: https://github.com/krose/terna/issues
